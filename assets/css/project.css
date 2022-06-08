@@ -66,12 +66,12 @@
 .projeto-imagem.projeto1 {
     width: 100%;
     height: 20rem;
-    background: url("/assets/image/iphone.png") center center no-repeat;
+    background: url(../image/iphone.png) center center no-repeat;
     background-size: cover;
     margin-bottom: 1rem;
-
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    background-size: cover;
 
 }
 
@@ -80,21 +80,30 @@
     height: 20rem;
     background: url(../image/login.png) center center no-repeat;
     margin-bottom: 1rem;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 
 .projeto-imagem.projeto3 {
     width: 100%;
     height: 20rem;
-    /* background: url(../image/login.png) center center no-repeat; */
+    background: url(../image/breve.png) center center no-repeat;
     margin-bottom: 1rem;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .projeto-imagem.projeto4 {
     width: 100%;
     height: 20rem;
-    /* background: url("/assets/image/bote.png") center center no-repeat; */
+    background: url(../image/breve.png) center center no-repeat;
     margin-bottom: 1rem;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 
