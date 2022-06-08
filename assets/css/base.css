@@ -1,0 +1,24 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(main.css);
+@import url(sobre.css);
+@import url(skills.css);
+@import url(project.css);
+@import url(footer.css);
+@import url(whatsapp.css);
+
+/* fontes  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    /* section */
+    --fundo-section: #693F89; 
+    /* fundo */
+    --fundo-body:#55336e;
+
+}
+
+
+
+

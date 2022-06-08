@@ -1,0 +1,21 @@
+.whatsapp{
+    bottom: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(151, 230, 33);
+    width: 8rem;
+    height: 8rem;
+    right: 50px;
+    z-index: 1000000000;
+}
+.whatsapp span{
+    font-size: 6rem;
+    
+}
+.whatsapp:hover{
+    box-shadow: 0 0 15px rgb(151, 230, 33);
+    transition: 0.5s ease-in-out;
+}

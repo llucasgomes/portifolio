@@ -1,0 +1,25 @@
+footer{
+    width: 100%;
+    background-color: #693F89;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.roda-pe h2{
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.roda-pe .container ul{
+    display: flex;
+    
+}
+/* .roda-pe .container ul a  */
+.roda-pe .container ul a{
+    font-size: 50px;
+    margin: 0 20px;
+}

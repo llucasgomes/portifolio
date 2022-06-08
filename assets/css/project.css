@@ -1,0 +1,113 @@
+.projects {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #693F89;
+    padding: 20px;
+}
+
+.projects h2 {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.projects .primeiro-container-project {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-left: 7%;
+}
+
+.projects .primeiro-container-project h3 {
+    font-size: 2.8rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.projects .primeiro-container-project p {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
+
+/* GRID  */
+.container-projetos {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto, 300px);
+    grid-gap: 10px;
+    
+    padding: 3rem;
+    justify-items: center;
+    border-radius: 1rem;
+
+}
+
+.container-projetos .projeto-item {
+    width: 250px;
+    align-items: center;
+    box-shadow: 0.5rem 0.5rem 1rem black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.projeto-imagem.projeto1 {
+    width: 100%;
+    height: 20rem;
+    background: url(/assets/image/iphone.png) center center no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.projeto-imagem.projeto2 {
+    width: 100%;
+    height: 20rem;
+    background: url(/assets/image/login.png) center center no-repeat;
+    margin-bottom: 1rem;
+    
+}
+
+.projeto-imagem.projeto3 {
+    width: 100%;
+    height: 20rem;
+    background: url(/assets/image/bote.png) center center no-repeat;
+    margin-bottom: 1rem;
+}
+
+.projeto-imagem.projeto4 {
+    width: 100%;
+    height: 20rem;
+    background: url(/assets/image/bote.png) center center no-repeat;
+    margin-bottom: 1rem;
+
+}
+
+.projeto-imagem>h2 {
+    padding-top: 60%;
+    font-size: 2.5rem;
+    text-align: center;
+    bottom: 1rem;
+}
+
+.projeto-item a p {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+    color: white;
+}

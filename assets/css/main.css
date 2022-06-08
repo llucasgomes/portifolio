@@ -1,0 +1,45 @@
+.conteudo {
+    
+    position: relative;
+    width: 100%;
+    padding: 56px 0 0 0;
+        
+}
+
+.home .descricao p:first-child,
+.home .descricao p:last-child
+{
+font-size: 4rem;
+}
+.home .descricao p:nth-child(2){
+    font-size: 9.5rem;
+}
+
+/* HOME  */
+
+.home{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+height: calc(100vh - 56px);
+background-color: white;
+}
+/* DESCRICAO */
+.home .descricao{
+    position: absolute;
+    left: 6%;
+    text-shadow: 1px 3px 4px white;
+    z-index: 2;
+}
+/* IMAGEM */
+.home .imagem{ 
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    z-index: 1;
+    right: 6%;
+    top: 1.8%;
+    /* right: 30%; */
+    
+}

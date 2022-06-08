@@ -1,0 +1,63 @@
+.sobre{
+    
+    position: relative;
+    width: 100%;
+    background-color: #693F89;
+    height: 457px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.sobre h2{
+    margin-top: 10px;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sobre .container-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container-sobre img{
+    position: absolute;
+    border-radius: 50%;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+    height: 70%;
+    left: 10%;
+    top: 20%;
+    animation-name: luz;
+
+}
+@keyframes luz {
+    0%{
+        box-shadow: 0 0 10px yellow;
+    }
+    100%{
+        box-shadow: 0 0 50px yellow;
+    }
+}
+.container-sobre .conteudo-sobre{
+    position: absolute;
+    width: 45%;
+    right: 7%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    top: 23%;
+    text-align: start;
+    color: white;
+}
+.container-sobre .conteudo-sobre p{
+    margin-top: 0;
+
+}
+
