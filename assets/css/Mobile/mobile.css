@@ -1,0 +1,210 @@
+@media (max-width: 992px) {
+    
+    /* HOME */
+    .home .descricao p:first-child,
+    .home .descricao p:last-child {
+        font-size: 4rem;
+    }
+
+    .home .descricao p:nth-child(2) {
+        font-size: 6.5rem;
+    }
+
+    .home .imagem{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        left: 10%;
+        z-index: 1;        
+        top: 4%;
+           
+    }
+    /* SOBRE */
+    .sobre {
+        height: 500px;
+        padding: 10px;
+    }
+
+    .sobre h2 {
+        font-size: 4rem;
+        color: white;
+    }
+
+    .container-sobre img {
+        display: none;
+
+    }
+
+    .container-sobre .conteudo-sobre {
+        position: static;
+        width: 90%;
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+        text-align: center;
+        margin-top: 19%;
+        margin-bottom: 15px;
+        height: 100%;
+    }
+    /* SKILLS e PROJECTS */
+    .skills .primeiro-container-skills h3,
+    .projects .primeiro-container-project h3 {
+        font-size: 2rem;
+
+    }
+
+    .skills .primeiro-container-skills p,
+    .projects .primeiro-container-project p {
+        font-size: 1.7rem;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+
+    /* CABECALHO */
+
+    .menu ul li {
+        font-size: 1.7rem;
+    }
+
+    /* HOME */
+    .home .descricao p:first-child,
+    .home .descricao p:last-child {
+        font-size: 3rem;
+    }
+
+    .home .descricao p:nth-child(2) {
+        font-size: 5.5rem;
+    }
+
+    .home .imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        left: 10%;
+        z-index: 1;
+
+        top: 3%;
+        /* right: 30%; */
+
+    }
+
+    /* SOBRE */
+    .sobre {
+        height: 500px;
+        padding: 10px;
+    }
+
+    .sobre h2 {
+        font-size: 4rem;
+        color: white;
+    }
+
+    .container-sobre img {
+        display: none;
+
+    }
+
+    .container-sobre .conteudo-sobre {
+        position: static;
+        width: 90%;
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+        text-align: center;
+        margin-top: 19%;
+        margin-bottom: 15px;
+        height: 100%;
+    }
+
+    /* SKILLS e PROJECTS */
+    .skills .primeiro-container-skills h3,
+    .projects .primeiro-container-project h3 {
+        font-size: 2rem;
+
+    }
+
+    .skills .primeiro-container-skills p,
+    .projects .primeiro-container-project p {
+        font-size: 1.7rem;
+
+    }
+}
+
+@media (max-width: 576px) {
+
+
+    /* HOME */
+    .home .descricao p:first-child,
+    .home .descricao p:last-child {
+        font-size: 2.4rem;
+    }
+
+    .home .descricao p:nth-child(2) {
+        font-size: 4.5rem;
+    }
+
+    .home {
+        align-items: center;
+
+    }
+
+    /* DESCRICAO */
+    .home .descricao {
+
+        left: 6%;
+    }
+
+    /* IMAGEM */
+    .home .imagem {
+        display: none;
+    }
+
+    /* SOBRE */
+    .sobre {
+        height: 500px;
+        padding: 10px;
+    }
+
+    .sobre h2 {
+        font-size: 4rem;
+        color: white;
+    }
+
+    .container-sobre img {
+        display: none;
+
+    }
+
+    .container-sobre .conteudo-sobre {
+        position: static;
+        width: 90%;
+        font-size: 1.7rem;
+        line-height: 2.3rem;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+
+    /* SKILLS e PROJECTS */
+    .skills .primeiro-container-skills h3,
+    .projects .primeiro-container-project h3 {
+        font-size: 2rem;
+
+    }
+
+    .skills .primeiro-container-skills p,
+    .projects .primeiro-container-project p {
+        font-size: 1.7rem;
+
+    }
+
+
+
+}

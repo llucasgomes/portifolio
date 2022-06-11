@@ -1,11 +1,12 @@
 @import url(reset.css);
-@import url(header.css);
-@import url(main.css);
-@import url(sobre.css);
-@import url(skills.css);
-@import url(project.css);
-@import url(footer.css);
-@import url(whatsapp.css);
+@import url(Desktop/header.css);
+@import url(Desktop/main.css);
+@import url(Desktop/sobre.css);
+@import url(Desktop/skills.css);
+@import url(Desktop/project.css);
+@import url(Desktop/footer.css);
+@import url(Desktop/whatsapp.css);
+@import url(Mobile/mobile.css);
 
 /* fontes  */
 
