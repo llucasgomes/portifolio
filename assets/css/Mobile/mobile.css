@@ -1,5 +1,5 @@
 @media (max-width: 992px) {
-    
+
     /* HOME */
     .home .descricao p:first-child,
     .home .descricao p:last-child {
@@ -10,7 +10,7 @@
         font-size: 6.5rem;
     }
 
-    .home .imagem{ 
+    .home .imagem {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -18,10 +18,11 @@
         width: 100%;
         height: 70vh;
         left: 10%;
-        z-index: 1;        
+        z-index: 1;
         top: 4%;
-           
+
     }
+
     /* SOBRE */
     .sobre {
         height: 500px;
@@ -48,6 +49,7 @@
         margin-bottom: 15px;
         height: 100%;
     }
+
     /* SKILLS e PROJECTS */
     .skills .primeiro-container-skills h3,
     .projects .primeiro-container-project h3 {
@@ -64,7 +66,7 @@
 }
 
 @media (max-width: 768px) {
-    
+
 
     /* CABECALHO */
 
@@ -139,37 +141,55 @@
 }
 
 @media (max-width: 576px) {
-    .cabecalho{
-        justify-content: center;
+    .btn-menu-on {
+        display:flex;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+    }
+    .btn-menu-off {
         
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
     }
-    .menu{
-        margin: auto;
+
+    .cabecalho {
+        align-items: center;
     }
-    .menu ul {
+
+    .escoder {
+        display: none;
+    }
+
+    .menu {
 
         display: flex;
-        gap: 3px;
-    
+        gap: 1rem;
+        margin: auto;
+        /* display: none; */
     }
-    
+
+    .menu ul {
+        display: flex;
+        gap: 3px;
+    }
+
     .menu ul li {
         /* transition: 0.5s ease-in-out; */
         padding: 0;
         font-size: 2rem;
         width: 10rem;
         text-align: center;
-    
-    
     }
-    
+
     .menu ul a:hover {
         transition: 0.2s ease-in-out;
         color: white;
         text-shadow: 0 0 4px yellow;
-    
+
         padding: 0 0;
-    
+
     }
 
     /* HOME */
@@ -201,6 +221,7 @@
     /* SOBRE */
     .sobre {
         height: 500px;
+        height: auto;
         padding: 10px;
     }
 

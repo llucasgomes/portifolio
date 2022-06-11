@@ -41,7 +41,20 @@
                     <li>Contatos</li>
                 </a>
             </ul>
+
         </nav>
+        <div class="btn-menu-on">
+            <span id="menuOn" class="material-icons">
+                reorder
+            </span>
+
+        </div>
+        <div class="btn-menu-off">
+            <span id="menuOff" class="material-icons">
+                close
+            </span>
+        </div>
+
     </header>
     <main class="conteudo">
         <section class="home">
@@ -52,8 +65,8 @@
             </div>
 
             <div class="imagem" data-aos="fade-left">
-                <lottie-player src="assets/image/lf30_editor_elf0lzwu.json"
-                    background="transparent" speed="1" style="width: 800px; height: 600px;" loop autoplay>
+                <lottie-player src="assets/image/lf30_editor_elf0lzwu.json" background="transparent" speed="1"
+                    style="width: 800px; height: 600px;" loop autoplay>
                 </lottie-player>
             </div>
 
@@ -197,11 +210,16 @@
 
     <!-- CDN AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
         AOS.init({
             duration: 1000
         });
     </script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="assets/js/menu.js"></script>
 </body>
 
 </html>
