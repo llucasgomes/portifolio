@@ -1,40 +1,42 @@
 .conteudo {
-    
+
     position: relative;
     width: 100%;
     padding: 56px 0 0 0;
-        
+
 }
 
 .home .descricao p:first-child,
-.home .descricao p:last-child
-{
-font-size: 4rem;
+.home .descricao p:last-child {
+    font-size: 4rem;
 }
-.home .descricao p:nth-child(2){
+
+.home .descricao p:nth-child(2) {
     font-size: 9.5rem;
 }
 
 /* HOME  */
 
-.home{
-display: flex;
-align-items: center;
-justify-content: space-around;
-width: 100%;
-height: calc(100vh - 56px);
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: calc(100vh - 56px);
 
 
 }
+
 /* DESCRICAO */
-.home .descricao{
+.home .descricao {
     position: absolute;
     left: 6%;
     text-shadow: 1px 3px 4px white;
     z-index: 2;
 }
+
 /* IMAGEM */
-.home .imagem{ 
+.home .imagem {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,43 +47,90 @@ height: calc(100vh - 56px);
     right: 6%;
     top: 1.8%;
     /* right: 30%; */
-    
+
+}
+
+.cv {
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    z-index: 50;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: 00.5s ease-in-out;
+}
+.cv:hover{
+    transition:all 0.5s ease-in-out;
+    background-color:rgb(105, 63, 137) ;
 }
 
 /* RETIRANDO DO SITE https://animatedbackgrounds.me/ */
-.home{
-    
+.home {
+
     background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
-        -webkit-animation: 10s linear 0s normal none infinite animate;
-        -moz-animation: 10s linear 0s normal none infinite animate;
-        -ms-animation: 10s linear 0s normal none infinite animate;
-        -o-animation: 10s linear 0s normal none infinite animate;
-        animation: 10s linear 0s normal none infinite animate;
-    
+    -webkit-animation: 10s linear 0s normal none infinite animate;
+    -moz-animation: 10s linear 0s normal none infinite animate;
+    -ms-animation: 10s linear 0s normal none infinite animate;
+    -o-animation: 10s linear 0s normal none infinite animate;
+    animation: 10s linear 0s normal none infinite animate;
+
+}
+
+
+@-webkit-keyframes animate {
+    from {
+        background-position: 0 0;
     }
 
- 
-@-webkit-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+    to {
+        background-position: 500px 0;
+    }
 }
- 
+
 @-moz-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 500px 0;
+    }
 }
- 
+
 @-ms-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 500px 0;
+    }
 }
- 
+
 @-o-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 500px 0;
+    }
 }
- 
+
 @keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 500px 0;
+    }
 }

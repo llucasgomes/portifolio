@@ -25,3 +25,8 @@ $('#menuOff').on({
         $('.btn-menu-on').show(1000);
     }    
 });
+
+
+$('.moldura-da-foto').mouseenter(function () { 
+    $(this).css({'transform': 'rotate(345deg)'});
+});

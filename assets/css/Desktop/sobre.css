@@ -25,27 +25,30 @@
     width: 100%;
     height: 100%;
 }
-
-.container-sobre img{
+.moldura-da-foto{
     position: absolute;
-    border-radius: 50%;
-    animation-duration: 2s;
-    /* animation-iteration-count: infinite; */
-    animation-fill-mode: forwards;
+    width: 22%;
     height: 70%;
     left: 10%;
-    top: 20%;
-    animation-name: luz;
+    top: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+    transition: 1s ease-in-out;
+}
+.container-sobre img:hover{
+    transform: rotate(345deg);
+}
+.container-sobre img{
+    width: 95%;
+}
+.container-sobre p{
+    font-size: 2rem;
+}
 
-}
-@keyframes luz {
-    0%{
-        box-shadow: 0 0 10px yellow;
-    }
-    100%{
-        box-shadow: 0 0 50px yellow;
-    }
-}
 .container-sobre .conteudo-sobre{
     position: absolute;
     width: 45%;
